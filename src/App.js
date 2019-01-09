@@ -23,6 +23,7 @@ class App extends Component {
         <h1 class="text-center align-self-center"> Wolfware Card</h1>
         <br />
         <div class="row container-fluid">
+
           <div class="col-sm-4 col-md-4 col-lg-4 text-center align-self-center">
             <Card img={image[0]} title={title[0]} subtitle={subtitle[0]} />
           </div>
@@ -34,6 +35,7 @@ class App extends Component {
           <div class="col-sm-4 col-md-4 col-lg-4 text-center align-self-center">
             <Card img={image[2]} title={title[2]} subtitle={subtitle[2]} />
           </div>
+          
         </div>
       </div>
     );
